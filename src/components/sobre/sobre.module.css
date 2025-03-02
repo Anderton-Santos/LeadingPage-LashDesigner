@@ -1,0 +1,184 @@
+/* .back{
+    position: absolute;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+}
+
+.mainText{
+    width: 40%;
+}
+
+.mainImg img{
+    width: 300px;
+    height: auto;
+} */
+
+.back {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100vh;     
+    object-fit: cover; 
+    z-index: -1;         
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+    position: relative; 
+}
+
+.mainText {
+
+    align-items: center;
+    width: 40%;
+    z-index: 1; 
+    font-size: 24px;
+}
+
+.mainText h2{
+    font-size: 90px;
+}
+
+.mainImg img {
+    width: 400px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+.back {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100vh;     
+    object-fit: cover; 
+    z-index: -1;         
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+    position: relative; 
+}
+
+.mainText {
+
+    align-items: center;
+    width: 40%;
+    z-index: 1; 
+    font-size: 16px;
+}
+
+.mainText h2{
+    font-size: 40px;
+}
+
+.mainImg img {
+    width: 200px;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 480px) {
+    .back {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;  
+        height: 100vh;     
+        object-fit: cover; 
+        z-index: -1;         
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 6%;
+        position: relative; 
+    }
+    
+    .mainText {
+        order: 2;
+        align-items: center;
+        width: 100%;
+        z-index: 1; 
+        font-size: 18px;
+        
+
+
+    }
+    
+    .mainText h2{
+        font-size: 20px;
+    }
+
+    .textTwo{
+        display: none;
+    }
+
+    .mainImg{
+        padding: 20px;
+    }
+    
+    .mainImg img {
+        order: 1;
+        width: 150px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+}
+
+/* 
+@media screen and (max-width: 600px) {
+    
+.back {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100vh;     
+    object-fit: cover; 
+    z-index: -1;         
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6%;
+    position: relative; 
+}
+
+.mainText {
+
+    align-items: center;
+    width: 40%;
+    z-index: 1; 
+    font-size: 16px;
+}
+
+.mainText h2{
+    font-size: 40px;
+}
+
+.mainImg img {
+    width: 200px;
+    height: auto;
+}
+} */

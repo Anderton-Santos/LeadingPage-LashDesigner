@@ -1,0 +1,90 @@
+/* .contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main{
+
+    margin: 0 auto;
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    background-color: aqua;
+}
+
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainValores{
+    height: 300px;
+} */
+
+/* Centraliza na tela */
+
+/* Garante que o container ocupa toda a tela */
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/images/services/back-services.jpg'); /* Usa a imagem como fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Define um tamanho fixo para a tabela e a mantém centralizada */
+.main {
+    width: 40%; /* Define uma largura fixa para manter a proporção */
+    max-width: 500px; /* Evita que fique muito grande */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Mantém o título proporcional */
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Ajustes para a tabela */
+.table {
+    width: 100%; /* Faz a tabela ocupar toda a largura do main */
+    border-collapse: collapse;
+}
+
+/* Define um espaçamento consistente */
+.table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estiliza os cabeçalhos */
+.table th {
+    background-color: #008080;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Melhora a visualização ao passar o mouse */
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
