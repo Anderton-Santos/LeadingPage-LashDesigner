@@ -57,7 +57,7 @@
     font-size: 14px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px)  {
     .main{
       background-color: #d6d3cb;
       display: flex;

@@ -92,7 +92,7 @@
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (max-height: 800px){
     .back {
         position: absolute; 
         top: 0;
@@ -106,25 +106,27 @@
     .main {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        padding: 6%;
-        position: relative; 
+
+        position: relative;
+        width: 100%; 
     }
     
     .mainText {
         order: 2;
         align-items: center;
-        width: 100%;
+        width: 80%;
         z-index: 1; 
-        font-size: 18px;
+        font-size: 22px;
         
 
 
     }
     
     .mainText h2{
-        font-size: 20px;
+        padding: 10px;
+        font-size: 32px;
     }
 
     .textTwo{
@@ -137,12 +139,14 @@
     
     .mainImg img {
         order: 1;
-        width: 150px;
+        width: 200px;
         height: 200px;
         object-fit: contain;
     }
 
 }
+
+
 
 /* 
 @media screen and (max-width: 600px) {

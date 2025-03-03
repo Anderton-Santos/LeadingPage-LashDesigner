@@ -34,8 +34,18 @@ export function Header() {
                         Agende seu horário e sinta-se ainda mais linda!</span>
 
                     <div className={styles.buttonHeader}>
-                        <button>Marcar Horario</button>
-                        <Link  to="/tabela"><button>Ver Valores</button></Link>
+
+                            <a className={styles.mainButton}
+                            href="https://api.whatsapp.com/send/?phone=5579999441007&text&type=phone_number&app_absent=0"
+                            target='_blank'
+                             rel="noopener noreferrer"
+                            >
+                                Marcar Horário</a>
+
+                        
+                        <Link className={styles.mainButton} to="/tabela">
+                        Ver Valores
+                        </Link>
                         
 
                     </div>
