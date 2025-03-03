@@ -131,8 +131,6 @@
 } 
 
 
-
-
 @media screen and (max-width: 600px) {
     .headerLinks{
 
@@ -229,6 +227,8 @@
 
 } 
 }
+
+
 
 
 @media screen and (max-width: 480px) {
@@ -345,100 +345,5 @@
 
 }
 
-/* 
-@media screen and (max-width: 600px) {
-    .headerLinks{
-
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-    
-    
-    
-    }
-    
-.headerMain{
-    width: 100%;
-
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.headerTitle{
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-
-}
 
 
-
-.headerTit{
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 40px;
-
-}
-.headerSub{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.imgBack{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imgBack img{
-
-    height: auto;
-    object-fit: cover;
-    width: 70%;
-}
-
-.buttonHeader{
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-
-
-}
-
-.buttonHeader button{
-    width: 90%;
-    height: 40px;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-
-} 
-
-.buttonHeader button:hover{
-    background-color: #33144a;
-    color: #fff;
-    transform: scale(1.10); 
-
-} 
-} */
