@@ -53,9 +53,9 @@
     gap: 20px;
 }
 
-.redes span{
-
-    font-size: 30px;
+.redes span a{
+    color: #FFF;
+    font-size: 26px;
 }
 
 

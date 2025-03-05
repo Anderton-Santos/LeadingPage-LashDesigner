@@ -153,8 +153,8 @@
     .mainText {
         padding: 20px;
         order: 2;
-        align-items: center;
-        width: 80%;
+        text-align: center;
+        width: 100%;
         z-index: 1; 
         font-size: 22px;
         

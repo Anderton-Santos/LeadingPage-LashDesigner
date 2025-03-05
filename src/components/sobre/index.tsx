@@ -10,15 +10,15 @@ export function Sobre() {
         <section className={styles.main}>
             <img className={styles.back} src={back} alt="" />
 
-            <span className={styles.mainText}>
+            <span className={styles.mainText} data-aos="fade-left">
                 <h2>Oi, Me chamo Maria!</h2>
-                especialista em design de cílios!
+                Sou especialista em extensão de cílios e design de sobrancelha!
                 transformo olhares e realço a confiança de minhas clientes com técnicas
                 personalizadas de extensão de cílios. Meu objetivo é proporcionar resultados
                 impecáveis e naturais, sempre priorizando o conforto e a segurança em cada
                 procedimento.<br/><br/>
 
-                <span className={styles.textTwo}>Seja para um visual mais volumoso ou mais delicado, ofereço uma variedade
+                <span className={styles.textTwo} data-aos="fade-right">Seja para um visual mais volumoso ou mais delicado, ofereço uma variedade
                 de estilos que atendem às suas preferências pessoais. Com um ambiente
                 acolhedor e profissionais qualificados, você pode contar comigo para
                 alcançar o look dos seus sonhos. Agende seu horário e venha viver a
@@ -27,7 +27,7 @@ export function Sobre() {
 
             </span>
 
-            <div className={styles.mainImg}>
+            <div className={styles.mainImg} data-aos="fade-up">
                 <img src={sobre} alt="" />
             </div>
         </section>

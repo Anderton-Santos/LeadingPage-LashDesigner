@@ -5,65 +5,65 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image: url('../../assets/images/services/back-services.jpg'); /* Usa a imagem como fundo */
+    background-image: url('../../assets/images/services/back-services.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Define um tamanho fixo para a tabela e a mantém centralizada */
+
 .main {
-    width: 40%; /* Define uma largura fixa para manter a proporção */
-    max-width: 500px; /* Evita que fique muito grande */
+    width: 40%;
+    max-width: 500px; 
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-/* Mantém o título proporcional */
+
 .title {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-/* Ajustes para a tabela */
+
 .table {
-    width: 100%; /* Faz a tabela ocupar toda a largura do main */
+    width: 100%; 
     border-collapse: collapse;
 }
 
-/* Define um espaçamento consistente */
+
 .table th, .table td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
 }
 
-/* Estiliza os cabeçalhos */
+
 .table th {
     background-color: #008080;
     color: white;
     text-transform: uppercase;
 }
 
-/* Melhora a visualização ao passar o mouse */
+
 .table tr:hover {
     background-color: #f1f1f1;
 }
 
-/* Media query para telas pequenas */
+
 @media only screen and (max-width: 420px), (max-height: 800px) {
     .main {
-        width: 90%; /* Aumenta a largura para ocupar mais espaço em telas pequenas, mas ainda respeita a proporção */
-        padding: 15px; /* Menos espaçamento para caber melhor na tela */
+        width: 90%; 
+        padding: 15px; 
     }
 
     .title {
-        font-size: 20px; /* Reduz o tamanho da fonte */
+        font-size: 20px;
     }
 
     .table th, .table td {
-        padding: 10px; /* Menos padding para economizar espaço */
+        padding: 10px;
     }
 }
