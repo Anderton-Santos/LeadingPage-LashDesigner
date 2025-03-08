@@ -133,7 +133,7 @@
 
 }
 
-@media(max-width: 770px) {
+@media screen and (max-width: 1540px) and (max-height: 730px) {
     .headerLinks{
 
         position: relative;
@@ -146,22 +146,83 @@
         font-style: normal;
         padding: 20px;
     
+    
+    
     }
 
-    .headerLinks span:hover{
-        background-color: #33144a;
-        color: #FFF;
-        border-radius: 20px;
-        transform: scale(1.10); 
-        cursor: pointer;
+    
+.headerTit{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 65px;
+
+}
+.headerSub{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+    
+}
+
+
+
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+    .headerLinks{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 20px;
+        font-size: 24px;
+    
     
     
     }
+
     
-    .headerLinks span{
-        padding: 10px;
+.headerTit{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+
+}
+.headerSub{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+    .headerLinks{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: 20px;
+        font-size: 20px;
+    
+    
+    
     }
-    
 
     .headerTitle{
         display: flex;
@@ -177,20 +238,104 @@
         font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 48px;
+        font-size: 70px;
     
     }
     .headerSub{
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 14px;
+        font-size: 26px;
     }
+
+
 }
 
 
 
-@media screen and (max-width: 600px) and (max-height:960px) {
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    
+.headerLinks{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+    font-size: 26px;
+
+
+
+}
+.headerMain{
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 70%;
+    padding: 4%;
+}
+
+
+
+.headerTit{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 84px;
+
+}
+.headerSub{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.imgBack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
+
+
+.mainButton{
+    width: 220px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    background-color:#f4f4f4;
+
+} 
+
+
+
+@media screen and (max-width: 601px) and (max-height:961px) {
     .headerLinks{
 
         position: relative;
@@ -202,7 +347,7 @@
         font-weight: 600;
         font-style: normal;
         padding: 20px;
-        font-size: 20px;
+        font-size: 26px;
     
     
     
@@ -354,7 +499,6 @@
         font-family: "Roboto", sans-serif;
         font-weight: 800;
         font-style: normal;
-        /* font-size: 48px; */
         font-size: 3.6rem;
     
     }
@@ -362,7 +506,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        /* font-size: 18px; */
+
         font-size: 1.3rem;
     }
 

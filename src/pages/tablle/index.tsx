@@ -13,8 +13,10 @@ export function Tabble() {
         { name: "Sirena", price: "R$ 80,00" },
         { name: "Kim Kardashian", price: "R$ 80,00" },
         { name: "5D", price: "R$ 90,00" },
+        { name: "6D", price: "R$ 100,00" },
         { name: "Fox", price: "R$ 100,00" },
         { name: "Mega Brasileiro", price: "R$ 110,00" },
+        { name: "8D", price: "R$ 110,00" },
         { name: "Megan Fox", price: "R$ 130,00" },
     ];
 
