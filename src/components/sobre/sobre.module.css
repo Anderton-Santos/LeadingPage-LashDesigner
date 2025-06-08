@@ -50,16 +50,16 @@
     text-align: center;
     width: 80%;
     z-index: 1; 
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .mainText h2{
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .mainImg img {
 
-    width: 140px;
+    width: 120px;
     height: auto;
 }
 
