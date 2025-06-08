@@ -17,7 +17,7 @@ export function Models() {
                         height={130}
                         className={styles.img}
                     />
-                    
+
                     <p>Cílios</p>
 
                     <span>
@@ -36,8 +36,8 @@ export function Models() {
                     />
                     <p>Sobrancelhas</p>
                     <span>
-                        Cílios Fio a Fio
-                        Técnica precisa para um olhar marcante e natural. Cílios leves, duradouros e confortáveis.
+                        Técnica precisa para um olhar marcante e natural.
+                        Fios delicados, duradouros e com acabamento leve e confortável.
                     </span>
                 </div>
 
