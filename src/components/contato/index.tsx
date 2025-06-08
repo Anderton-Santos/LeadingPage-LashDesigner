@@ -17,14 +17,18 @@ export function Contato() {
         <div className={styles.main}>
 
             <div className={styles.info} data-aos="fade-up">
-                <p className={styles.title}>Cilios da Maria</p>
-                <div className={styles.infoServices}>
-                    <span>Extensão de cílios</span>
-                    <span>Sobrancelhas</span>
-                    <span>Lash Lifiting</span>
-                    
-
+                <div>
+                    <p className={styles.title}>Cilios da Maria</p>
+                    <span>Tranformando seu olhar!<br/> ✨🦋</span>
                 </div>
+                
+                <div className={styles.infoServices}>
+                    <span>Cílios</span>
+                    <span>Sobrancelhas</span>
+                    <span>Brown</span>
+                    <span>Lash Lifiting</span>
+                </div>
+
             </div>
 
             <div className={styles.localizacao} data-aos="fade-up">

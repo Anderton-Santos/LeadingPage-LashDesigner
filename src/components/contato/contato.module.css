@@ -5,6 +5,8 @@
     height: 300px;
     background-color: #050505;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 40px;
 
 
@@ -18,9 +20,10 @@
 
 .title{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
     font-size: 26px;
+    padding: 8px;
 }
 
 .main span{
@@ -30,10 +33,25 @@
     color: #ffff;
 }
 
+.info{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 40%;
+    gap:10%
+
+}
+
 .infoServices{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.infoServices span{
+
+    font-weight: bold;
+
 }
 
 .direitos{

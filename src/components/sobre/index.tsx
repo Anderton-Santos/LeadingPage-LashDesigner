@@ -10,6 +10,10 @@ export function Sobre() {
         <section className={styles.main}>
             <img className={styles.back} src={back} alt="" />
 
+                        <div className={styles.mainImg} data-aos="fade-up">
+                <img src={sobre} alt="" />
+            </div>
+
             <span className={styles.mainText} data-aos="fade-left">
                 <h2>Oi, Me chamo Maria!</h2>
                 Sou especialista em extensão de cílios e design de sobrancelha!
@@ -24,12 +28,11 @@ export function Sobre() {
                 alcançar o look dos seus sonhos. Agende seu horário e venha viver a
                 experiência de se sentir ainda mais poderosa!</span>
 
+                
+
 
             </span>
 
-            <div className={styles.mainImg} data-aos="fade-up">
-                <img src={sobre} alt="" />
-            </div>
         </section>
 
     )

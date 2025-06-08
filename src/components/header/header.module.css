@@ -20,7 +20,7 @@
 
     position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     gap: 10%;
     font-family: "Roboto", sans-serif;
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
-    width: 70%;
+    width: 80%;
     padding: 4%;
 }
 
@@ -75,14 +75,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 100px;
+    font-size: 65px;
+    text-align: center;
 
 }
 .headerSub{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .imgBack{
@@ -95,7 +96,7 @@
 
     height: auto;
     object-fit: cover;
-    width: 70%;
+    width: 50%;
 }
 
 .buttonHeader{
@@ -133,127 +134,40 @@
 
 }
 
-@media screen and (max-width: 1540px) and (max-height: 730px) {
+
+
+@media screen and (max-width: 40rem){
+
     .headerLinks{
-
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-    
-    
-    
-    }
-
-    
-.headerTit{
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 65px;
-
-}
-.headerSub{
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 20px;
-}
-    
-}
-
-
-
-@media screen and (max-width: 1440px) and (max-height: 900px) {
-    .headerLinks{
-
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-        font-size: 24px;
-    
-    
-    
-    }
-
-    
-.headerTit{
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 70px;
-
-}
-.headerSub{
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 30px;
-}
+    display: none;
 
 }
 
 
 
-@media screen and (max-width: 1280px) and (max-height: 800px) {
-    .headerLinks{
 
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-        font-size: 20px;
-    
-    
-    
-    }
 
-    .headerTitle{
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        width: 70%;
-        padding: 4%;
-    }
     
-    
-    
-    .headerTit{
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 70px;
-    
-    }
-    .headerSub{
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 26px;
-    }
+.imgBack{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBack img{
+        display: none;
+    height: auto;
+    object-fit: cover;
+    width: 70%;
+}
+  
+
 
 
 }
 
+@media screen and (max-width: 48rem){
 
-
-@media screen and (max-width: 768px) and (max-height: 1024px) {
     
 .headerLinks{
 
@@ -266,25 +180,28 @@
     font-weight: 600;
     font-style: normal;
     padding: 20px;
-    font-size: 26px;
+    margin: 0 auto;
 
 
 
 }
-.headerMain{
-    width: 100%;
-
-    position: relative;
-    display: flex;
+    .imgBack{
+    display: none;
     align-items: center;
     justify-content: center;
+}
 
+.imgBack img{
+        display: none;
+    height: auto;
+    object-fit: cover;
+    width: 70%;
 }
 
 .headerTitle{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 78px;
     width: 70%;
     padding: 4%;
 }
@@ -295,81 +212,57 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 84px;
+    font-size: 65px;
+    text-align: center;
 
 }
 .headerSub{
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.imgBack{
+}
+
+@media screen and (max-width: 64rem) {
+
+    
+.headerLinks{
+    
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-
-}
-
-
-.mainButton{
-    width: 220px;
-    height: 50px;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 18px;
-    text-align: center;
+    align-items: center;
+    gap: 10%;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-    background-color:#f4f4f4;
-
-} 
-
-
-
-@media screen and (max-width: 601px) and (max-height:961px) {
-    .headerLinks{
-
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-        font-size: 26px;
-    
-    
-    
-    }
-    
-.headerMain{
-    width: 100%;
     padding: 20px;
+    margin: 0 auto;
 
-    position: relative;
-    display: flex;
+
+
+}
+    .imgBack{
+
     align-items: center;
     justify-content: center;
+}
 
+.imgBack img{
+        display: none;
+    height: auto;
+    object-fit: cover;
+    width: 70%;
 }
 
 .headerTitle{
     display: flex;
     flex-direction: column;
-
+    gap: 92px;
     width: 100%;
-
+    padding: 4%;
 }
 
 
@@ -378,302 +271,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 4.9rem;
+    font-size: 61px;
+    text-align: center;
 
 }
 .headerSub{
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.8rem;
-}
-
-.imgBack{
-    display: none;
-}
-
-
-
-.buttonHeader{
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-
-
-}
-
-.buttonHeader button{
-    width: 90%;
-    height: 40px;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-
-} 
-
-.buttonHeader button:hover{
-    background-color: #33144a;
-    color: #fff;
-    transform: scale(1.10); 
-
-} 
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 480px) and (max-height: 800px) {
-    .background{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-    }
-
-    .headerLinks{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2%;
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 20px;
-    }
-    .headerLinks span{
-        transition: transform 0.5s ease, background-color 0.5s ease;
-        border-radius: 20px;
-    }
-    
-    .headerLinks span:hover{
-        background-color: #33144a;
-        color: #FFF;
-        border-radius: 20px;
-        transform: scale(0.8); 
-        cursor: pointer;
-    
-    
-    }
-
-
-    .imgBack{
-        display: none;
-    }
-
-    .headerMain{
-        width: 100%;
-    
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-
-    .headerTitle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        width: 80%;
-
-    }
-    
-    
-    
-    .headerTit{
-        padding: 10px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        font-size: 3.6rem;
-    
-    }
-    .headerSub{
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-        font-size: 1.3rem;
-    }
-
-
-    
-.buttonHeader{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-
-
-}
-
-.mainButton{
-    width: 150px;
-    height: 40px;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-    background-color:#f3f3f3;
-    color: #000;
-
-} 
-
-.mainButton:active{
-    background-color: #33144a;
-    color: #fff;
-    transform: scale(1.10); 
-
+    font-size: 22px;
 }
 
 }
-
-@media screen and (max-width: 420px) and (max-height: 800px) {
-    .background{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-    }
-
-    .headerLinks{
-        width: 90%;
-        margin: 0 auto;
-        font-size: 16px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2%;
-
-        font-family: "Roboto", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        padding: 10px;
-    }
-    .headerLinks span{
-        transition: transform 0.5s ease, background-color 0.5s ease;
-        border-radius: 20px;
-    }
-    
-    .headerLinks span:hover{
-        background-color: #33144a;
-        color: #FFF;
-        border-radius: 20px;
-        transform: scale(0.8); 
-        cursor: pointer;
-    
-    
-    }
-
-
-    .imgBack{
-        display: none;
-    }
-
-    .headerMain{
-        width: 100%;
-    
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-
-    .headerTitle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        width: 80%;
-
-    }
-    
-    
-    
-    .headerTit{
-        padding: 10px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-
-        font-size: 3.3rem;
-    
-    }
-    .headerSub{
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-        font-size: 1.1rem;
-    }
-
-
-    
-.buttonHeader{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-
-
-}
-
-.mainButton{
-    width: 120px;
-    height: 40px;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 14px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    transition: transform 0.5s ease, background-color 0.5s ease;
-    background-color:#f3f3f3;
-    color: #000;
-
-} 
-
-.mainButton:active{
-    background-color: #33144a;
-    color: #fff;
-    transform: scale(1.10); 
-
-}
-
-
-}
-
-
-

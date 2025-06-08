@@ -2,10 +2,13 @@ import { Header } from "../../components/header"
 import { Sobre } from "../../components/sobre"
 import { Services } from "../../components/services"
 import { Contato } from "../../components/contato"
+import { Models } from "../../components/models";
 
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Redes } from "../../components/redes";
+
 
 
 
@@ -13,34 +16,41 @@ export function Home() {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Duração da animação (em ms)
-      once: false, // Se true, a animação só ocorre uma vez
+      duration: 2000,
+      once: false,
     });
   }, []);
-    return (
-        <div>
-          <header>
-            <Header/>
-          </header>
+  return (
+    <div>
+      <header>
+        <Header />
+      </header>
 
-          <section id="sobre">
-            <Sobre/>
-          </section>
+      <section id="sobre">
+        <Sobre />
+      </section>
 
-          <section id="servicos">
-            <Services/>
-          </section>
+      <section id="models" >
+        <Models />
+      </section>
 
-          <section id="contato">
-            <Contato/>
-          </section>
+      <section id="servicos">
+        <Services />
+      </section>
 
-          
-        </div>
+      <section>
+        <Redes/>
+      </section>
 
-  
-    )
-  }
-  
+      <section id="contato">
+        <Contato />
+      </section>
 
-  
+
+    </div>
+
+
+  )
+}
+
+
